@@ -11,7 +11,7 @@ This project aims to analyze various factors influencing medical insurance costs
 - **Regional Differences:** Compares insurance costs across different U.S. regions.
 - **BMI Analysis:** Examines the correlation between BMI and insurance costs.
 - **Children Impact:** Studies how the number of children affects insurance costs.
-- **Graphical Analysis:** Utilizes seaborn to visually analyze distributions of age, gender, and smoking status, enhancing the comprehensiveness of our analysis.
+- **Graphical Analysis:** Utilizes seaborn to visually analyze distributions of age, gender, and smoking status, enhancing the comprehensiveness of the analysis.
 
 ## Data
 
