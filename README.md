@@ -11,6 +11,7 @@ This project aims to analyze various factors influencing medical insurance costs
 - **Regional Differences:** Compares insurance costs across different U.S. regions.
 - **BMI Analysis:** Examines the correlation between BMI and insurance costs.
 - **Children Impact:** Studies how the number of children affects insurance costs.
+- **Graphical Analysis:** Utilizes seaborn to visually analyze distributions of age, gender, and smoking status, enhancing the comprehensiveness of our analysis.
 
 ## Data
 
@@ -32,12 +33,20 @@ The dataset used for this analysis includes information on age, sex, BMI, childr
 
 2. Install the required Python libraries:
 
-3. Open the Jupyter Notebook (this version was made using VS code and jupyter extension):
-
+3. Open the Jupyter Notebook (`Insurance_Cost_Analysis.ipynb`) in your preferred environment (this project used VS Code with the Jupyter extension) and follow the installation prompts for any missing packages.
 
 ## Usage
 
-Navigate to the `Insurance_Cost_Analysis.ipynb` file in the Jupyter Notebook UI and run the cells sequentially to replicate the analysis.
+Navigate to the `Insurance_Cost_Analysis.ipynb` file in the Jupyter Notebook UI and run the cells sequentially to replicate the analysis. The notebook includes sections for data preparation, exploratory data analysis, and graphical analysis for an in-depth understanding of the factors influencing insurance costs.
+
+## Graphical Analysis
+
+The project includes a detailed graphical analysis segment, showcasing:
+- The distribution of ages within the dataset, highlighting the diversity of the sample population.
+- The gender distribution, illustrating the balance between male and female participants.
+- A comparison of smokers and non-smokers, providing insights into smoking prevalence among the sampled individuals.
+
+These visualizations are crucial for understanding the dataset's composition and identifying patterns related to insurance costs.
 
 ## Conclusions
 
@@ -45,7 +54,4 @@ Our analysis highlights significant factors affecting insurance costs, including
 
 ## Future Work
 
-Future analyses could incorporate more variables, such as age, specific health conditions, and employment status, to deepen the understanding of insurance cost determinants.
-
-
-
+Future analyses could incorporate more variables, such as age, specific health conditions, and employment status, to deepen the understanding of insurance cost determinants. Additional graphical analyses could further elucidate the relationships between these factors and insurance costs.
